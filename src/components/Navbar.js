@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
     return (
         <nav>
@@ -11,8 +10,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="pt-1">
-                    <Link to="/create" className="mx-3 hover:text-slate-400">Create</Link>
-                    <Link to="/edit" className="mx-3 hover:text-slate-400">Edit</Link>
+                    <Link to="/create" className="mx-3 hover:text-slate-400">Create</Link>        
                 </div>
             </div>
         </nav>
